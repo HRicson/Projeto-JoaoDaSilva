@@ -1,0 +1,25 @@
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio li{
+    display: inline-block;
+    border: .2em solid #000;
+    background-color: rgba(235, 243, 250, 0.336);
+    width: 45%;
+    box-sizing: border-box;
+    padding: 1em;
+    margin-right: 1em;
+    margin-bottom: 5pt;
+    flex: 1 1 45%;
+}
+.portfolio li:first-child{
+    flex-basis: 100%;
+}
+a{
+    text-decoration: none;
+}
+.portfolio img{
+    width: 100%;
+    box-shadow: 0 0 5px #000;
+}
